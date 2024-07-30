@@ -14,6 +14,10 @@
     top: 18%;
     width: 24px;
 }
+// Form button
+.form-btn {
+    border-radius: 10px;
+}
 
 // Small Screens
 @media (max-width: 992px) {
@@ -26,5 +30,15 @@
       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
         url('../images/header-background.jpg') center center no-repeat;
     }
-    
+    // Contact
+    .contact {
+        margin-top: 40px !important;
+        .text-contact {
+            text-align: center;
+        }
+        .point-contact {
+            text-align: left;
+            padding-right: 10px;            
+        }
+    }
 }
