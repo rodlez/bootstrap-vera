@@ -3,6 +3,16 @@
     font-size: 65px;
 }
 
+// Navigation
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+// Format navbar when scroll
+.navbar-sticky {
+    opacity: 0.9;
+    border-bottom: 2px solid var(--bs-primary);
+}
+
 .header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url('../images/header-background.jpg') left center no-repeat;
@@ -32,7 +42,19 @@
 // Small Screens
 @media (max-width: 992px) {
     .xl-text {
-      font-size: 50px;
+        font-size: 50px;
+    }
+     // Add margin in the Hamburguer Menu
+    .navbar {        
+        .nav-link {
+            margin-top: 20px;
+        }
+        .fa-stack {
+            margin: 20px 0;
+        }
+        .nav-social {
+            margin-right: 30px;
+        }
     }
     // More transparent because the letters will be over the image, better readability, and text center
     .header {
