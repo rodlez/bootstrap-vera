@@ -14,7 +14,17 @@
     top: 18%;
     width: 24px;
 }
-// Form button
+// Form 
+// Separation line
+.hr-heading {
+    display: inline-block;
+    width: 25%;
+    height: 0.125rem;
+    margin-top: 0.625rem;
+    border: none;
+    background-color: var(--bs-primary);
+    opacity: 1;
+}
 .form-btn {
     border-radius: 10px;
 }
