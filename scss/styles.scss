@@ -129,6 +129,17 @@
     }
 }
 
+// Video Modal
+.video-modal .modal-dialog {
+    max-width: 1150px;
+    margin-top: 20px;
+}
+  
+.project-modals .modal-dialog {
+    max-width: 1150px;
+    margin-top: 130px;
+}
+
 // Small Screens
 @media (max-width: 992px) {
     .xl-text {
