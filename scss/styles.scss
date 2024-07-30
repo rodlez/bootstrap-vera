@@ -1,0 +1,30 @@
+// Utility Text for Big Titles
+.xl-text {
+    font-size: 65px;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+      url('../images/header-background.jpg') left center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+// Show the background image orange as a decoration
+.vertical-decoration {
+    top: 18%;
+    width: 24px;
+}
+
+// Small Screens
+@media (max-width: 992px) {
+    .xl-text {
+      font-size: 50px;
+    }
+    // More transparent because the letters will be over the image, better readability, and text center
+    .header {
+      text-align: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+        url('../images/header-background.jpg') center center no-repeat;
+    }
+    
+}
