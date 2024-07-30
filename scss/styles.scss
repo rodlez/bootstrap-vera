@@ -2,7 +2,6 @@
 .xl-text {
     font-size: 65px;
 }
-
 // Navigation
 .navbar {
     transition: all 0.5s ease-in-out;
@@ -12,7 +11,7 @@
     opacity: 0.9;
     border-bottom: 2px solid var(--bs-primary);
 }
-
+// Header
 .header {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url('../images/header-background.jpg') left center no-repeat;
@@ -38,6 +37,23 @@
 .form-btn {
     border-radius: 10px;
 }
+// Details 1
+.details { 
+    .vertical-decoration {
+        top: 10%;
+        left: 0;
+        width: 24px;
+    }
+}
+// Details 2
+.details-2 { 
+    .vertical-decoration {
+        top: 10%;
+        right: 0;
+        width: 24px;
+    }
+}
+
 
 // Small Screens
 @media (max-width: 992px) {
@@ -71,6 +87,28 @@
         .point-contact {
             text-align: left;
             padding-right: 10px;            
+        }
+    }
+    // Details 1
+    .details {
+        margin-top: 0px !important;
+        .text-details {
+            text-align: center;
+        }
+        .point-details {
+            text-align: left;
+            padding-right: 10px;
+        }
+    }
+    // Details 2
+    .details-2 {
+        margin-top: 0px !important;
+        .text-details {
+            text-align: center;
+        }
+        .point-details {
+            text-align: left;
+            padding-right: 10px;
         }
     }
 }
