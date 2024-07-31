@@ -142,7 +142,7 @@
 
 // Pricing
 .pricing {
-    .card-body:hover {
+    .card:hover {
         border: 1px solid var(--bs-primary);
         border-radius: 5px;
     }
@@ -151,7 +151,7 @@
 // Small Screens
 @media (max-width: 992px) {
     .xl-text {
-        font-size: 50px;
+        font-size: 40px;
     }
      // Add margin in the Hamburguer Menu
     .navbar {        
@@ -205,6 +205,9 @@
         }
     }
     // Video
+    .video {
+        margin-bottom: 20px !important;
+    }
     .video-points {
         padding: 0 !important;
         text-align: center;
@@ -214,6 +217,7 @@
     }
     // Pricing
     .pricing {
+        padding-top: 50px !important;
         .price{
             margin-bottom: 20px !important;
         }
