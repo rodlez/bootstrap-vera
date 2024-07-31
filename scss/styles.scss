@@ -156,6 +156,13 @@
     }
 }
 
+// Newsletter
+.newsletter {
+    .btn-newsletter {
+        border-radius: 5px;    
+    }
+}
+
 // Small Screens
 @media (max-width: 992px) {
     .xl-text {
